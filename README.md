@@ -44,30 +44,6 @@ Line ending:  LF
 
 ---
 
-## Usage Examples
-
-### Python
-```python
-with open('password.txt', 'r') as file:
-    password = file.read().strip()
-    print(f"Pattern: {password}")
-```
-
-### Node.js
-```javascript
-const fs = require('fs');
-const pattern = fs.readFileSync('password.txt', 'utf8').trim();
-console.log(`Pattern: ${pattern}`);
-```
-
-### Shell
-```bash
-pattern=$(cat password.txt)
-echo "Pattern: $pattern"
-```
-
----
-
 ## Research Applications
 
 ▪ **Security Analysis** — Password pattern research  
