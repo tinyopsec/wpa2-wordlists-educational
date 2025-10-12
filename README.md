@@ -1,109 +1,49 @@
-# Password Repository
+# Password Lists (≥ 8 characters) — Educational Collections
 
-**Curated collection of commonly used 8-digit numeric combinations**
-
-[![Research](https://img.shields.io/badge/Research-Based-orange)](https://github.com/username/password-repository)
-[![Format](https://img.shields.io/badge/Format-8--Digit-blue)](https://github.com/username/password-repository)
-[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/username/password-repository)
+**Short:** this repository contains *educational* password lists composed of entries 8 characters and longer. These files are provided **only** for defensive, research, and learning purposes (password-strength testing of systems you own, security training, academic research, tooling development). No passwords are supplied for—or intended for—unauthorized access.
 
 ---
 
-## Overview
+## ⚠️ Mandatory Disclaimer
 
-This repository contains statistically significant 8-digit numeric patterns for security research and penetration testing purposes.
+**READ THIS FIRST.**  
+All materials in this repository are provided **strictly for lawful, ethical, and educational use**. Using these lists to access, probe, or attack computers, networks, accounts, or services that you do **not** own or for which you do **not** have explicit, written permission is **illegal** and **unethical**. The repository owner and contributors **do not** endorse or take responsibility for misuse of these materials.
 
-### Key Features
-
-• **8-character length** — Standard numeric format  
-• **Pattern-based** — Statistically relevant sequences  
-• **Research-ready** — Clean, accessible data  
-• **Cross-platform** — Universal compatibility  
+By using files from this repository you confirm that you will use them only in environments for which you have authorization (for example: your own systems, a test lab, or systems where you have explicit written consent).
 
 ---
 
-## Technical Specifications
+## Allowed / Intended Use Cases
 
-```
-Format:       Plain text (.txt)
-Length:       8 digits exactly
-Character set: 0-9 (numeric only)
-Encoding:     UTF-8
-Line ending:  LF
-```
+Use these collections for activities such as:
 
----
-
-## Pattern Categories
-
-| **Type** | **Description** | **Example** |
-|----------|-----------------|-------------|
-| Sequential | Consecutive digits | 12345678 |
-| Repetitive | Repeated patterns | 11111111 |
-| Date-based | Year/date formats | 19901990 |
-| Keyboard | Physical sequences | 12369874 |
+- Auditing password strength on systems you own.
+- Developing or testing password-strength meters (in isolated/test environments).
+- Academic or defensive security research.
+- Teaching and training on password hygiene and defensive techniques.
 
 ---
 
-## Research Applications
+## Prohibited Actions
 
-▪ **Security Analysis** — Password pattern research  
-▪ **Penetration Testing** — Common combination testing  
-▪ **Development** — Mock authentication systems  
-▪ **Education** — Security demonstrations  
+Do **not** use files from this repo to:
 
----
+- Attempt to access accounts, services, or systems you do not own or control.
+- Perform brute-force or credential-stuffing attacks against public services.
+- Share or publish results that enable unauthorized access.
 
-## Data Insights
-
-```
-Most common first digit:  1 (12.3%)
-Least common digit:       8 (8.6%)
-Average entropy:          22.4 bits
-Pattern distribution:     34% sequential, 28% repetitive, 38% mixed
-```
+If you are unsure whether a use is permitted, do **not** proceed and seek written authorization.
 
 ---
 
-## File Structure
+## Safe Usage Notes
 
-```
-password-repository/
-├── password.txt    # Main pattern file
-├── README.md       # Documentation
-└── .gitignore      # Git rules
-```
+- Always use these lists in an offline, isolated environment (air-gapped VM or lab).
+- Rate-limit any automated testing and respect rules-of-engagement for tests.
+- Never combine these lists with production credentials or third-party services.
+- Permanently delete any derived lists or artifacts that contain real user data.
 
 ---
 
-## Quality Standards
+## Repository Structure (example)
 
-▫ **Format validated** — Strict 8-digit numeric format  
-▫ **Research-backed** — Based on empirical data  
-▫ **Cross-platform** — Universal compatibility  
-▫ **UTF-8 compliant** — Standard encoding  
-
----
-
-## Contributing
-
-Contributions welcome for:
-- New statistically significant patterns
-- Additional research data  
-- Documentation improvements
-- Validation tools
-
----
-
-## License
-
-Released under MIT License. See LICENSE file for details.
-
----
-
-<div align="center">
-
-**Built for security researchers and developers**
-
-*Advancing password security through data analysis*
-
-</div>
