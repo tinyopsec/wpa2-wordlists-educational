@@ -1,3 +1,17 @@
+// === Instructions to copy, compile, and run ===
+// On Linux:
+// 1. Copy this code (Ctrl + Shift + C in terminal or Ctrl + C in editor).
+// 2. Save it as: numbers.cpp
+// 3. Compile it with: g++ numbers.cpp -o numbers
+// 4. Run it with: ./numbers
+//
+// On Windows:
+// 1. Copy this code (Ctrl + C).
+// 2. Save it as: numbers.cpp
+// 3. Compile it with (using MinGW or similar): g++ numbers.cpp -o numbers.exe
+// 4. Run it with: numbers.exe
+// ==============================================
+
 #include <iostream>
 #include <fstream>
 #include <iomanip>
